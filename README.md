@@ -4,6 +4,16 @@ This was an Air Force sponsored project during the Discovery Lab Global 10 week 
 
 This project scrapes sciencedirect.com for details on research papers (title, description, authors, location, and email) regarding any topic or author chosen by the user and plots the details on a world map in the Second Life virtual reality environment. This research map allows the user to view where the most current research is published around the globe. If an author is used as a search query then the map displays the scope of an author's worldwide influence when publishing research. 
 
+<p align="center">
+  <img src="images/figure1.png"><br>
+  <b>Network Diagram Research Map Model</b><br>
+</p>
+
+<p align="center">
+  <img src="images/figure1.png"><br>
+  <b>One of Many Project Meetings in the Virtual World</b><br>
+</p>
+
 TimeStampedLineByLineTextOnPrim.lsl is the script placed in a prim in-world. This prim will produce an ID URL when first activated. This ID URL can be used to communicate to the prim from outside the in-world environment through a POST request. Text received by the prim through the ID URL is printed on the prim and timestamped.
 
 findClosestPoint.py returns the closest global coordinate location from a location list when given any address on the globe. This is used to locate high profile points on the research map in precise coodinate mapping is not implemented.
