@@ -15,7 +15,7 @@ This project scrapes sciencedirect.com for details on research papers (title, de
 </p>
 
 
-# Available Code
+## Available Code
 
 TimeStampedLineByLineTextOnPrim.lsl is the script placed in a prim in-world. This prim will produce an ID URL when first activated. This ID URL can be used to communicate to the prim from outside the in-world environment through a POST request. Text received by the prim through the ID URL is printed on the prim and timestamped.
 
