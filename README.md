@@ -14,6 +14,9 @@ This project scrapes sciencedirect.com for details on research papers (title, de
   <b>One of Many Project Meetings in the Virtual World</b><br>
 </p>
 
+
+# Available Code
+
 TimeStampedLineByLineTextOnPrim.lsl is the script placed in a prim in-world. This prim will produce an ID URL when first activated. This ID URL can be used to communicate to the prim from outside the in-world environment through a POST request. Text received by the prim through the ID URL is printed on the prim and timestamped.
 
 findClosestPoint.py returns the closest global coordinate location from a location list when given any address on the globe. This is used to locate high profile points on the research map in precise coodinate mapping is not implemented.
