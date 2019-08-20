@@ -5,12 +5,12 @@ This was an Air Force sponsored project during the Discovery Lab Global 10 week 
 This project scrapes sciencedirect.com for details on research papers (title, description, authors, location, and email) regarding any topic or author chosen by the user and plots the details on a world map in the Second Life virtual reality environment. This research map allows the user to view where the most current research is published around the globe. If an author is used as a search query then the map displays the scope of an author's worldwide influence when publishing research. 
 
 <p align="center">
-  <img src="images/figure1.png"><br>
+  <img src="images/researchMapModel.png"><br>
   <b>Network Diagram Research Map Model</b><br>
 </p>
 
 <p align="center">
-  <img src="images/figure1.png"><br>
+  <img src="images/dlg group photo.png"><br>
   <b>One of Many Project Meetings in the Virtual World</b><br>
 </p>
 
@@ -21,8 +21,5 @@ findClosestPoint.py returns the closest global coordinate location from a locati
 textSummarizer.py will summarize the text on any webpage given a URL using extractive summarization (ie. Input document → sentences similarity → weight sentences → select sentences with higher rank). An future improvement would be to use abstractive summarization (ie. Input document → understand context → semantics → create own summary).
 
 getArticleInfo.py scrapes sciencedirect.com, a leading website for research papers, for the first 25 research papers on any topic or author and then extracts the useful details on each paper ((title, description, authors, location, and email) using BeautifulSoup. Then these details are then sent to a in-world prim.
-
-## Photos
-
 
 
