@@ -20,6 +20,6 @@ findClosestPoint.py returns the closest global coordinate location from a locati
 
 textSummarizer.py will summarize the text on any webpage given a URL using extractive summarization (ie. Input document → sentences similarity → weight sentences → select sentences with higher rank). An future improvement would be to use abstractive summarization (ie. Input document → understand context → semantics → create own summary).
 
-getArticleInfo.py scrapes sciencedirect.com, a leading website for research papers, for the first 25 research papers on any topic or author and then extracts the useful details on each paper ((title, description, authors, location, and email) using BeautifulSoup. Then these details are then sent to a in-world prim.
+getArticleInfo.py scrapes sciencedirect.com, a leading website for research papers, for the first 25 research papers on any topic or author and then extracts the useful details on each paper ((title, description, authors, location, and email) using BeautifulSoup. Then these details are then sent to an in-world prim.
 
 
